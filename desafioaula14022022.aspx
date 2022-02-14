@@ -33,7 +33,7 @@
     <td style="font-weight: 700; text-align: right">Repita-email :</td>
     <td><asp:TextBox ID="TextBoxEmailrept" runat="server"></asp:TextBox>
         
-         <asp:CompareValidator ID="CompareValidatorEmail2" runat="server" ControlToCompare="TextBoxEmailrept" ControlToValidate="txtconfipass"  ErrorMessage="Email diferente !!"></asp:CompareValidator>
+         <asp:CompareValidator ID="CompareValidatorEmail2" runat="server" ControlToCompare="TextBoxEmailrept" ControlToValidate="TextBoxEmail"  ErrorMessage="Email diferente !!"></asp:CompareValidator>
     
     </td>
 </tr>
